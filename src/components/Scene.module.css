@@ -1,0 +1,14 @@
+.canvasContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none; /* Let clicks pass through to the HTML below if needed, or disable if the canvas needs interaction */
+}
+
+/* We want canvas interaction for hover effects on the dumbbell if needed */
+.canvasInteractive {
+  pointer-events: auto;
+}
